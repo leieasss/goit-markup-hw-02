@@ -1,5 +1,5 @@
 :root {
-  --primary--font-family: "Roboto", sans-serif;
+  --primary--font-family: "Raleway", sans-serif;
   --primary-background: #ffffff;
   --primary-second-background: #f4f4fd;
   --primary-text: #4d5ae5;
@@ -12,7 +12,7 @@ a {
 }
 /* HEADER */
 .body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
@@ -186,15 +186,16 @@ a {
   text-decoration: none;
 }
 .logo-footer {
+
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: var(--primary-third-text)
 }
+
 
 .footer-text {
   font-family: "Roboto";
