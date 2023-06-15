@@ -1,5 +1,5 @@
 :root {
-  --primary--font-family: "Raleway", sans-serif;
+  --primary--font-family: "Roboto", sans-serif;
   --primary-background: #ffffff;
   --primary-second-background: #f4f4fd;
   --primary-text: #4d5ae5;
@@ -12,7 +12,7 @@ a {
 }
 /* HEADER */
 .body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
@@ -265,6 +265,29 @@ a {
 .item-btn:focus {
   background: #404bbf;
   color: #ffffff;
+}
+
+.item-filter__btn   {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--primary-text);
+    background-color: var(--primary-third-text);
+    cursor: pointer;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    letter-spacing: 0.04em;
+}
+.ifp__btn {
+    letter-spacing: 0.04em;
+}
+
+.item-filter__btn:hover,
+.item-filter__btn:focus {
+    background: #404BBF;
+    color: #FFFFFF;
 }
 
 .works-list {
