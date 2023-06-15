@@ -250,6 +250,7 @@ body   {
     font-weight: 400;
     line-height: 1.5;
     color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
 
 
@@ -274,7 +275,7 @@ body   {
     background-color: var(--primary-third-text);
     cursor: pointer;
     border: 1px solid #E7E9FC;
-    border-radius: 4px;
+    /* border-radius: 4px; */
     letter-spacing: 0.04em;
 }
 .ifp__btn {
